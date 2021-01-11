@@ -1,0 +1,25 @@
+@media screen and (max-width:700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width: 910px) {
+    .botoes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-top: 8px;
+        width: 190px;
+        
+    }
+}

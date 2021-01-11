@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+:root {
+    --vermelho: #E50914 ;
+    --preta: #141414;
+}
+
+body {
+    background-color: var(--preta);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    height: calc(100vh - 12px);
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-size: 40px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 24px;
+}
+
+header nav a{
+    color:#AAA;
+    margin-right: 12px;
+}
+
+header nav a:hover {
+    color: #FFF;
+    transition: 0.3s;
+}

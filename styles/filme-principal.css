@@ -1,0 +1,45 @@
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)100%),url('../img/capa-sabrina.png');
+    height: 530px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.filme-principal .container {
+    margin-left: 36px;
+    width: 40%;
+
+}
+
+.titulo {
+    font-size: 40px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.botao {
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.botao i {
+    margin-right: 8px;
+}
